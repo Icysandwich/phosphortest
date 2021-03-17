@@ -1,10 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>phosphortest</groupId>
-  <artifactId>jna</artifactId>
+  <artifactId>smtest</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <url>http://maven.apache.org</url>
-  <description>Debug JNA with phosphor.</description>
+  <description>Debug phosphor.</description>
   
   <dependencies>
     <dependency>
@@ -12,11 +12,6 @@
       <artifactId>maven-resources-plugin</artifactId>
       <version>2.6</version>
     </dependency>
-  <dependency>
-    <groupId>net.java.dev.jna</groupId>
-    <artifactId>jna</artifactId>
-    <version>4.2.2</version>
-  </dependency>
   </dependencies>
   <build>
   <plugins>
@@ -33,7 +28,7 @@
                 <archive>
                 <manifest>
                     <mainClass>
-                        jna.Main
+                        phosphortest.Main
                     </mainClass>
                 </manifest>
                 </archive>
